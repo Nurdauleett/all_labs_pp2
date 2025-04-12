@@ -166,7 +166,7 @@ while True:
     # If there is a collision between a player and an enemy
     if pygame.sprite.spritecollideany(P1, enemies):
         continue_game = handle_crash()
-        if not continue_game:  
+        if not continue_game:
             pygame.quit()
             sys.exit()
 
